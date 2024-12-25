@@ -1,0 +1,625 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("image.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    align-self: center;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.Deliver{
+    color:#cccccc;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.address-icon{
+    font-size: 14px;
+    display: flex;
+    color: white;
+}
+.country{
+    margin-left: 5px;
+    color: white;
+}
+.nav-search{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-logo{
+    color: white;
+    background-color:rgb(215, 141, 31);
+    width: 40px;  
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-input{
+    width:600px;
+    font-size: large;
+    border: none;
+}
+.search-select{
+    width:52px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 5px;
+    margin: 1px;
+    background-color: #cccccc;
+}
+.nav-language{
+     width:55px;
+     height: 33px;
+     display:flex;
+     
+     color:white;
+}
+.image-language{
+    width:35px;
+    height: 16.2px;
+    background-image: url("us-flag.png");
+    background-size: cover;
+    position: relative;
+    top: 15px;
+}
+.lang-select{
+    width:10px;
+    height:10px;
+    position: relative;
+    top: 20px;
+}
+.lang{
+    position: relative;
+    top: 15px;
+}
+.nav-accounts{
+    color: white;
+    width: 131.52px;
+    height: 50px;
+    position: relative;
+    top:10px;  
+}
+.sign{
+    font-size: 12px;
+}
+.accounts{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+}
+.accounts-select{
+    width:15px;
+    height:15px;
+}
+.nav-orders{
+    color: white;
+}
+.returns{
+ font-size: 12px;
+}
+.orders{
+font-size: 14px;
+}
+.nav-cart{
+    color: white;
+    display: flex;
+}
+.fa-cart-shopping{
+    font-size: 30px;
+}
+.cart{
+    font-size: 14px;
+   font-weight: bold;
+    position: relative;
+    top:10px;
+}
+.bar-two{
+    height: 35px;
+   background-color:rgb(4, 6, 47);
+   color: white;
+   display: flex;
+   justify-content:flex-start;
+}
+.all{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:10px;
+}
+.Service{
+    width:500px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.space{
+    width: 600px;
+}
+.shop-gaming{
+    position: relative;
+    right:-70px;
+    font-weight:700 ;
+    top: 10px;
+}
+.main{
+    height:600px;
+    background-image: url("hero.jpg");
+    background-size: cover;
+}
+.indian-website-link{
+    font-size: 14px;
+    width: 1350px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:250px;
+    left:35px;
+    background-color: white;
+}
+.main-items{
+    height:750px;
+    width:1350px;
+    position: relative;
+    background-color: #dedcdc;
+    top:20px;
+    left:35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-gaming{
+    width: 306px;
+    height: 350px;
+    background-color:white;
+}
+.see-more{
+    position: relative;
+    bottom:15px;
+    left:10px;
+    font-size: 14px;
+}
+.gaming-items{
+    position: relative;
+    top: 30px;
+    height:300px;
+    width:306px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gaming-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.headsets{
+   width:150px;
+   height:100px;
+   background-image: url("headset.jpg");
+   background-size:cover;
+}
+
+.chairs{
+    width:150px;
+    height:100px;
+    background-image: url("chair.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .keyboard{
+    width:150px;
+    height:100px;
+    background-image: url("keyboards-gaming.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .computer-mice{
+    width:150px;
+    height:100px;
+    background-image: url("mouse.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+.main-home-arrivals{
+    width: 306px;
+    height: 350px;
+    background-color: white;
+   
+}
+.home-arrival-items{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    height:300px;
+    width:306px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.home-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.kitchen-dining{
+   width: 120px;
+   height:80px;
+   background-image: url("kitchen1.jpg");
+   background-size:cover;  
+}
+.paint{
+    width:120px;
+    height:80px;
+    background-image: url("paint.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .decoration{
+    width:120px;
+    height:80px;
+    background-image: url("decoration.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .pillow{
+    width:120px;
+    height:80px;
+    background-image: url("pillow.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }    
+.main-fashion{
+    width: 306px;
+    height: 350px;
+    background-color: white;   
+}
+.fashion-items{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    height:300px;
+    width:306px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.fashion-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.jeans{
+   width: 120px;
+   height:80px;
+   background-image: url("jeans.jpg");
+   background-size:cover;  
+}
+.tops{
+    width:120px;
+    height:80px;
+    background-image: url("tops.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .dresses{
+    width:120px;
+    height:80px;
+    background-image: url("dresses.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .shoes{
+    width:120px;
+    height:80px;
+    background-image: url("shoes.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }    
+
+.main-showcase-items{
+    width: 306px;
+    height: 350px;
+    background-color: white;
+   
+}
+.showcase-items{
+    position: relative;
+    top: 30px;
+    left: 5px;
+    height:300px;
+    width:306px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.showcase-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.dining{
+   width: 120px;
+   height:80px;
+   background-image: url("glass.jpg");
+   background-size:cover;  
+}
+.home{
+    width:120px;
+    height:80px;
+    background-image: url("home.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .kitchen{
+    width:120px;
+    height:80px;
+    background-image: url("food.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }
+ .beauty{
+    width:120px;
+    height:80px;
+    background-image: url("shampoo.jpg");
+    background-size: cover;
+    font-size: 14px;
+ }    
+
+.main-toys{
+    width: 306px;
+    height: 350px;
+    background-color: white;  
+}
+.toys-items{
+    position: relative;
+   top:30px;
+   left:13px;
+    height:300px;
+    width:306px;
+}
+.toys-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.toys{
+    width: 280px;
+    height:250px;
+    background-image: url("toys.jpg");
+    background-size:cover;  
+ }
+.main-beauty{
+    width: 306px;
+    height: 350px;
+    background-color: white;
+  
+}
+.beauty-items{
+    position: relative;
+   top:30px;
+   left:13px;
+    height:300px;
+    width:306px;
+}
+.beauty-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.beauty-second{
+    width: 280px;
+    height:250px;
+    background-image: url("makeup.jpg");
+    background-size:cover;  
+ }
+.main-keypad{
+    width: 306px;
+    height: 350px;
+    background-color: white;
+    
+}
+.keypad-items{
+    position: relative;
+   top:30px;
+   left:13px;
+    height:300px;
+    width:306px;
+}
+.keypad-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.keypad{
+    width: 280px;
+    height:250px;
+    background-image: url("keypad.jpg");
+    background-size:cover;  
+ }
+.main-decor{
+    width: 306px;
+    height: 350px;
+    background-color: white;
+
+}
+.decor-items{
+    position: relative;
+   top:30px;
+   left:13px;
+    height:300px;
+    width:306px;
+}
+.decor-title{
+    width: 100%;
+    height:30px;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+.decor{
+    width: 280px;
+    height:250px;
+    background-image: url("decor-home.jpg");
+    background-size:cover;  
+ }
+.main-to-end{
+    position: relative;
+    top:300px;
+    height:770px;
+    background-color: #dedcdc;
+}
+.footer-tag{
+    position: relative;
+    color:white;
+    bottom: -300px;
+    height:470px;
+   background-color: #04062f
+}
+.go-top{
+    height:20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #37475a;
+}
+.footer-panel2{
+    position: relative;
+    top:20px;
+    font-size: 14px;
+   display: flex;
+    height:250px;
+    justify-content: space-evenly;
+    border-bottom: 0.25px solid #dedcdc;
+   
+}
+ul a{
+    display: block;
+}
+.get-to-know{
+    font-size: 18px;
+}
+.site-info{
+    height: 100px;
+    border-bottom: 0.25px solid #dedcdc;
+    display: flex;
+   justify-content:space-evenly;
+}
+.logo-amazon{
+    position: relative;
+    top:20px;
+    width:150px;
+    height:80px;
+    background-image: url("image.png");
+    background-size: cover;
+}
+.info{
+    width:120px;
+    height:80px;
+    position: relative;
+    top:45px;
+}
+.info1{
+    display: flex;
+    justify-content: space-around;
+    border: 0.25px solid #dedcdc;
+}
+.currency{
+    width:140px;
+    height:80px;
+    position: relative;
+    top:45px;
+}
+.US-Dollar{
+    text-align: center;
+    border: 0.25px solid #dedcdc;
+}
+.US-Country{
+    width:120px;
+    height:80px;
+    position: relative;
+    top:45px;
+}
+.sub-country{
+    display: flex;
+    border: 0.25px solid #dedcdc;
+}
+.US-Flag{
+    width:15px;
+    height:15px;
+    background-image: url("us-flag.png");
+    background-size: cover;
+}
+.last{
+    height: 40px;
+}
+.last1{
+    width:900px;
+    font-size: 12px;
+    padding-left: 300px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.last2{
+    height: 40px;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
